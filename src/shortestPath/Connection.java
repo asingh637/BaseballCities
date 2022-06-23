@@ -4,7 +4,7 @@ package shortestPath;
 /**
  * One object of Connections class represents a connection between 
  * two cities with a positive distance.
- * 
+ *
  * @author Foothill College, Bita Mazloom
  */
 public class Connection
@@ -25,7 +25,7 @@ public class Connection
 	 * @param dist	the cost between source and dest
 	 */
 	public Connection(String source, String dest, int dist)
-	{	
+	{
 		this.source = source;
 		this.destination = dest;
 		this.distance = dist;
@@ -45,8 +45,8 @@ public class Connection
 	 * @return	the city name
 	 */
 	public String getDestination()
-	{	return destination;	}		
-	
+	{	return destination;	}
+
 
 	/**
 	 * Distance between source and destination city
@@ -67,7 +67,7 @@ public class Connection
 		{
 			Connection otherConn = (Connection)other;
 			if (otherConn.source.equals(this.source) &&
-			    otherConn.destination.equals(this.destination))
+					otherConn.destination.equals(this.destination))
 				return true;
 		}
 		return false;
@@ -80,4 +80,5 @@ public class Connection
 	{
 		return String.format("%s, %s, %d\n", source, destination, distance);
 	}
+
 }

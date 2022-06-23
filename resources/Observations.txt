@@ -1,0 +1,19 @@
+- Between run 2 and run 3, the addition of avoiding Dallas did not
+affect the total distance as much as I had thought. For example, getting from
+Seattle to Miami with no Dallas restriction took 3318 miles, versus 3451, only
+a 133 mile difference.
+- Run 4 only had to avoid Dallas, while run 5 avoided Cleveland and Denver, however
+we can see that we have to travel for a considerable amount more in Run 5.
+Even though Denver is the first stop in every destination for run 4, so is
+Dallas for run 5. Surprisingly, Phoenix to Miami, and Phoenix to Houston
+were both less distance in the second instance when Dallas was allowed but
+Cleveland and Denver were restricted. I suspect that is
+because having Dallas as a potential city helps to reduce the amount of
+extra travel in order to avoid Dallas, hence why removing just Dallas has
+more of an impact that Cleveland and Denver restricted combined.
+- Run 6, when traveling from Phoenix to Miami, New York A, and Houston while
+avoiding Cleveland, Dallas, and Denver, we have no paths found for all three
+destinations. This is due to Phoenix being on the West Coast and all three
+destinations on the East Coast, and with the 1000 mile fill up requirement,
+not having these three cities in the middle of our route results in no
+viable path being found.
